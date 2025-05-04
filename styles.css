@@ -1,0 +1,70 @@
+/* Custom styles to complement Bootstrap */
+
+/* Ticket card styling */
+.ticket-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ticket-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.ticket-img-container {
+    height: 200px;
+    overflow: hidden;
+}
+
+.ticket-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Train ticket specific styling */
+.ticket-details {
+    padding: 10px;
+    background-color: var(--bs-dark);
+    border-radius: 6px;
+    border: 1px solid var(--bs-border-color);
+}
+
+.ticket-details .badge {
+    padding: 6px 10px;
+}
+
+/* Upload form styling */
+.upload-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.custom-file-label {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Empty state styling */
+.empty-state {
+    text-align: center;
+    padding: 3rem;
+}
+
+.empty-state-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: var(--bs-secondary);
+}
+
+/* Add some spacing to flash messages */
+.alert {
+    margin-top: 1rem;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 3rem;
+    padding: 1.5rem 0;
+    border-top: 1px solid var(--bs-border-color);
+}
